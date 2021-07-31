@@ -13,7 +13,7 @@ function App() {
     fetchData();
   }, []);
 
-  return <Map></Map>;
+  return <Map launchPads={launchPads}> </Map>;
 }
 
 export default App;
