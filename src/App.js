@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
+import Map from "./components/Map";
 
 function App() {
   const [launchPads, setData] = useState();
@@ -12,7 +13,7 @@ function App() {
     fetchData();
   }, []);
 
-  return <></>;
+  return <Map></Map>;
 }
 
 export default App;
